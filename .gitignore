@@ -1,0 +1,5 @@
+/server/node_modules
+/client/node_modules
+/ml_service/venv
+/ml_service/__pycache__
+/server/.env
