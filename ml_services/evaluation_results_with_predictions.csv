@@ -1,0 +1,351 @@
+text,label,predicted,confidence
+"Today everything felt heavy. I stared at my thesis draft for two straight hours and barely wrote a sentence. It’s like my brain just froze. I keep wondering if I’m even smart enough to finish this degree. Everyone else seems to be moving forward while I’m just stuck, sinking quietly. I didn’t talk to anyone all day. Even my own thoughts felt distant, like they didn’t belong to me.",sadness,sadness,0.5317084193229675
+"I walked home in the rain without an umbrella. It wasn’t pouring, but it was enough to soak through my hoodie. I didn’t even mind. It matched my mood. The streetlights looked blurry and I thought about how long it’s been since I felt genuinely happy. I miss that version of myself.",sadness,joy,0.7503572106361389
+"I scrolled through old photos of my friends tonight and it hurt. We used to laugh nonstop and go on random adventures. Now everyone is busy with their own lives. I get it, but it still sucks that I barely hear from them anymore. Feels like I’m forgotten.",sadness,sadness,0.9217501878738403
+"I tried to call Mom today but hung up before she answered. I didn’t know what to say. I love her, but I don’t want her to worry about me. I’m tired of pretending I’m okay. I just want someone to hug me and say it’s fine to fall apart for a bit.",sadness,fear,0.4552740752696991
+"I stayed in bed until noon. No energy to get up. It’s not even tiredness—just emptiness. I opened the curtains and immediately closed them again. Too bright. It felt like the day was moving on without me, and I couldn’t bear it.",sadness,sadness,0.9193083643913269
+"My friend cancelled plans again. Third time this month. I said it was fine, but I felt that weird sting. I wonder if I’m just the friend people talk to when they’re bored but drop when something better comes along. I shouldn’t care, but I do.",sadness,disgust,0.41980817914009094
+The library was full today but somehow I felt lonelier than ever. Watching people study together made something in my chest ache. I wanted to ask someone to sit with me but my stupid pride got in the way. I hate how lonely I feel even when surrounded by people.,sadness,sadness,0.9644702076911926
+"I saw my ex today by accident. Just a quick hello, but it ruined my mood. They looked happy. I pretended I was too. But walking away felt like ripping off a scab that was finally healing. I don’t know why it still hurts. It’s been months.",sadness,sadness,0.8730053305625916
+"I spent the evening trying to cook a proper meal. It turned out awful. I ended up eating cereal instead. I don’t even know why that made me sad, but it did. It felt symbolic somehow—me trying to do something right and failing anyway.",sadness,sadness,0.6198002099990845
+"Sometimes I think I’m wasting my twenties. I’m supposed to be making memories, traveling, falling in love. Instead, I’m stressed out, tired, broke, and constantly worried about deadlines. I wish someone would pause the world so I can catch my breath.",sadness,neutral,0.7372289299964905
+I went for a walk at 2AM because I couldn’t sleep. The streets were completely empty and I felt like the last person on earth. It was peaceful but also incredibly lonely. I thought about my goals and couldn’t remember why I even wanted them in the first place.,sadness,neutral,0.4547240734100342
+"Dad asked if I’m happy here. I lied and said yes. The truth is I haven’t felt genuinely happy in months. I laugh, sure. I smile when I have to. But underneath everything is this dull sadness I can’t shake off. Like background noise in my mind.",sadness,sadness,0.8232194781303406
+"I deleted social media today. Seeing everyone’s “perfect lives” made me feel small. I know it’s all curated nonsense, but still. I wish I had something exciting to post. Something that made me proud. Right now all I have is anxiety and half-finished work.",sadness,joy,0.4649178087711334
+"I miss my childhood home. Not the building itself, but the feeling of safety. Back when dinner was at 7, sleep was peaceful, and the future didn’t feel like a threat. Adulthood is overrated. Nobody warned me it would be this lonely.",sadness,neutral,0.6996409296989441
+"I started crying while washing dishes today and I don’t even know why. It came out of nowhere. I guess feelings don’t ask for permission. I wiped my eyes and continued scrubbing like nothing happened. Nobody saw, and that somehow made it even sadder.",sadness,sadness,0.7189310789108276
+I saw a couple holding hands on the street. It made me think about how long it’s been since someone held mine. I’m scared I’ll get used to being alone. What if I already have? The idea of opening up to someone again feels exhausting.,sadness,sadness,0.4307308495044708
+"A lecturer said, “Some of you won’t make it through this program.” He was joking, but it cut deep. I already fear that I’m one of those people. I’ve been working so hard, but it feels like I’m running in place. Every success feels temporary.",sadness,neutral,0.5645160675048828
+"My room is messy again. Whenever my mind feels chaotic, my space follows. I tried cleaning but stopped halfway. I wish I could organize my thoughts like I organize my files on my laptop. Instead everything is scrambled and overwhelming.",sadness,neutral,0.444509357213974
+"I looked in the mirror today and barely recognized myself. Tired eyes, forced smile. I used to care about how I looked, but lately I just feel numb. Like my body is just the vehicle carrying my sadness around.",sadness,sadness,0.9395542144775391
+"Someone asked me how I’m doing, and I genuinely didn’t know how to answer. I’m not good, but not completely broken. Just… floating. Existing without purpose. It’s scary how easy it is to hide sadness behind a casual “I’m fine.”",sadness,fear,0.7664346694946289
+"I apologized twice today for things that weren’t my fault. I think sadness makes me smaller, like I take up less space than I’m allowed. I want to feel confident again, but right now I’m just tired of everything, including myself.",sadness,sadness,0.7451552748680115
+"I listened to an old song I used to love. Instead of making me happy, it reminded me how different life was when I first heard it. I miss that version of me—hopeful, curious, full of plans. Now I feel like I’m just surviving one day at a time.",sadness,sadness,0.6524362564086914
+"There’s a bird that sits on the same tree outside my window every morning. Every day I watch it fly away and I wish I had wings too. Not literally, just… something to lift me out of this constant heaviness.",sadness,neutral,0.7025394439697266
+"I tried talking about my feelings today but the words got stuck. I hate crying in front of people, so I just said I was tired. It’s easier to say “tired” than “sad.” Tired gets sympathy. Sad gets awkward silence.",sadness,neutral,0.5744102597236633
+"I hate that I compare myself to others so much. I know it’s unhealthy, but when everyone seems happy, successful, in love… it’s hard not to wonder what’s wrong with me. Maybe nothing is wrong. Maybe this is just how life feels sometimes.",sadness,sadness,0.9714222550392151
+"I think my sadness comes in waves. Some days I can breathe fine, other days it feels like I’m underwater. Today was underwater. Even small tasks felt impossible. I hope tomorrow is better. I don’t need joy, just a little air.",sadness,sadness,0.8885541558265686
+"I spent most of today pretending to be okay. Smiled in class, laughed at a joke, helped someone with their assignment. Then I came home and felt completely empty. It’s scary how good I’ve become at acting.",sadness,sadness,0.8642351031303406
+"I miss being excited about things. Now even good news feels muted. I passed a module recently and barely celebrated. I just ticked it off a list. I want to feel proud again, but sadness keeps dulling everything.",sadness,sadness,0.8188124299049377
+"My sibling sent me a voice note and I almost cried hearing their voice. I didn’t realize how much I missed family until that moment. I wish I could go home, just for a weekend. I need to feel loved without explaining myself.",sadness,sadness,0.7177567481994629
+"I watched a sunset today from my window. It was beautiful but it made me sad. Something about endings always hits me hard. Even small ones, like the end of a day. Maybe I’m scared of time moving faster than I can keep up.",sadness,sadness,0.9563309550285339
+"I reread some of my old journals and it hurt. I used to dream so loudly. Now my dreams feel whisper-quiet. I’m not giving up, but damn… I miss that fire. Sadness didn’t used to win this often.",sadness,sadness,0.9683660268783569
+"I skipped dinner tonight. Not because I wasn’t hungry—just didn’t have the will to cook. I keep losing appetite when I’m down, even though I know it makes things worse. Food used to be comforting. Now it’s just another task.",sadness,neutral,0.4181308448314667
+"Sometimes I think about packing everything and leaving. Not running away, just… disappearing for a while. Somewhere quiet. Somewhere I don’t have to prove anything. But I know that wherever I go, I’d still carry this sadness with me.",sadness,sadness,0.8497260808944702
+"I found a photo of me smiling genuinely. I stared at it for a long time. I don’t remember the last time I looked that alive. I hate that sadness makes me doubt every good memory, like maybe I imagined them.",sadness,sadness,0.9338294863700867
+I lay on the floor today and listened to the ceiling fan buzz. I didn’t move for fifteen minutes. It felt oddly peaceful. Sadness sometimes slows me down enough to notice the silence. But it also makes the silence feel like a void.,sadness,neutral,0.6289182901382446
+"Got feedback on my assignment and it wasn’t great. Not terrible, but disappointing. I tried to shake it off but couldn’t. It’s not even about grades—it’s the fear that I’m failing at the one thing my future depends on.",sadness,sadness,0.4976363480091095
+My chest felt tight all day. Anxiety mixed with sadness is exhausting. Like I’m waiting for something bad to happen even when nothing’s actually wrong. I wish my mind had an off switch. Just for a few hours of rest.,sadness,neutral,0.524861752986908
+"I think people assume I’m strong because I don’t cry in public. But strength isn’t staying quiet—it’s asking for help. And I’m too scared to do that. I don’t want to be a burden. So I keep everything inside, even when it hurts.",sadness,fear,0.5621418952941895
+"I looked at the sky tonight and felt incredibly small. Not in a philosophical way—just lonely. It reminded me how many people exist, and how easy it is to feel insignificant among all of them. I wonder if anyone else feels this way too.",sadness,sadness,0.8893879055976868
+"I’m angry at my sadness sometimes. It feels selfish, like it keeps stealing moments from me. Even when I’m with people I care about, there’s always a shadow. I wish I could tell it to leave without needing therapy or medication.",sadness,anger,0.7621697783470154
+"I cancelled plans today because I didn’t want anyone to see me like this. I said I was tired. That’s become my default excuse. Truth is, I don’t know how to be social when my heart feels heavy. I hate disappointing people.",sadness,sadness,0.9340371489524841
+"I didn’t realize how much I missed my dog until Mom sent a video of him today. I cried watching it. There’s something about animals—so pure, so loving. He used to curl up next to me when I was sad. I needed that today.",sadness,sadness,0.5521709322929382
+Sometimes I think nobody truly knows me. Not because I’m mysterious—but because I don’t allow it. Sadness makes me cautious. I reveal pieces but never the whole picture. I wonder what it would feel like to be fully understood.,sadness,fear,0.6059724688529968
+"I held a cup of tea tonight just to feel warmth. It was oddly comforting. But when it got cold, I felt sad again. Maybe I rely too much on temporary comforts. They fade too quickly, leaving me right back where I started.",sadness,sadness,0.9465529918670654
+"I saw graduation photos online today and felt a weird sadness. I should be excited for my turn, but I’m scared I won’t make it. What if I fail? What if I succeed and still feel empty? I don’t know which is worse.",sadness,sadness,0.9029463529586792
+"I think sadness isolated me more than I realized. I avoid group chats, skip calls, ignore invitations. I tell myself I need space, but maybe I’m just afraid people won’t like the version of me I’ve become.",sadness,sadness,0.9167063236236572
+"I don’t cry easily, but tonight I did. It felt like my body finally gave up pretending. I curled up on the bed and let it all out. No explanations, no solutions. Just tears. It didn’t fix anything, but at least it felt honest.",sadness,sadness,0.7958554625511169
+I passed someone in the hallway who looked genuinely happy. I envied them. I don’t need constant happiness—just a chance to feel hope again. I’m tired of sadness being my default setting. I want a reason to smile without forcing it.,sadness,joy,0.7587557435035706
+I’m scared of telling people I’m sad because I fear they’ll see me differently. But keeping it inside is starting to feel like carrying a backpack full of bricks. I don’t know how much longer I can carry it alone.,sadness,neutral,0.42605698108673096
+"Tonight I looked at the stars and whispered, “Please let tomorrow be lighter.” I don’t know who I was talking to, but it made me feel slightly better. Maybe sadness doesn’t mean I’m broken—maybe it just means I still care.",sadness,sadness,0.6475284695625305
+"Woke up early today and actually felt refreshed for once. The air was cool, the sky clear, and I made myself a proper breakfast. Eggs, toast, coffee — nothing fancy, but I sat and ate slowly, and it felt like I was starting the day right. Funny how small things can make such a difference.",joy,joy,0.8132727146148682
+"Got the results back from my research proposal and — holy shit — I passed with good feedback. The supervisor even wrote “great potential here.” I’ve read that line like ten times. I know it’s just a start, but it feels like proof that I might actually be capable of this.",joy,neutral,0.658507227897644
+"Had the best call with my mom today. She laughed at all my stupid jokes and told me she was proud of me. I swear, hearing that made my whole week. I don’t need gifts or celebration — just hearing that was enough.",joy,joy,0.4350115656852722
+"Went for a run after class and felt something I haven’t felt in a while: energy. Not anxiety energy. Real, genuine, upbeat energy. The playlist hit perfectly, and the sunset looked like it was painted just for me.",joy,joy,0.898588240146637
+Tried cooking a new recipe tonight and it actually turned out good. Like genuinely good. I even plated it nicely and took a photo. Maybe I should cook more — it makes me slow down and enjoy the moment.,joy,joy,0.9096280336380005
+"I caught the sunrise today and actually stopped to look. The colors were insane. For a few minutes, the whole world felt alive and mine too.",joy,joy,0.893207311630249
+I bumped into a friend I haven’t seen in months. We talked and laughed for hours. Didn’t realize how much I needed that connection until it happened.,joy,neutral,0.5559551119804382
+"I bumped into an old friend at the library today and we ended up chatting for ages. No awkwardness, no pressure — just easy warmth. It reminded me that I actually have people who care about me.",joy,joy,0.8573364019393921
+"Today felt peaceful. Nothing big happened. Just studied in a quiet corner, listened to soft music, and didn’t feel rushed. I didn’t even check the time much. I forgot how nice it feels to just exist without panic.",joy,neutral,0.7574608325958252
+"Had coffee with someone from my course and it went surprisingly well. We talked about movies, our families, future plans. It wasn’t forced. We even laughed about how stressed everyone is. Felt like the beginning of a real friendship.",joy,joy,0.7294983863830566
+I bought myself flowers today. Just because. Yellow ones. They’re sitting on my desk now and they brighten up the whole room. Didn’t realize how much joy a bit of color could bring.,joy,joy,0.966060221195221
+Finished a chapter of my thesis ahead of schedule — AHEAD — this never happens. I treated myself to ice cream and shamelessly enjoyed every bite. I’m learning to celebrate small wins.,joy,neutral,0.4662615656852722
+"The weather was perfect today so I studied outside. Birds were loud, sun was warm, breeze soft. I actually retained what I read. Maybe nature is better than caffeine.",joy,neutral,0.8802893161773682
+"Had a really good hair day today. Sounds silly, but I looked in the mirror and smiled. I didn’t pick myself apart for once. I just thought — hey, I look pretty good. That felt new.",joy,joy,0.9673415422439575
+Got a random message from a friend saying they missed me. My heart actually jumped. We made plans to meet next week. Something to look forward to — finally.,joy,joy,0.9058762788772583
+"I cleaned my entire room today while blasting music and dancing like an idiot. It was fun. No overthinking, no stress. Just movement and rhythm. And now the room feels lighter. So do I.",joy,joy,0.9090831279754639
+"Someone in class complimented my presentation skills. ME. I’ve always been nervous in front of people, but today I spoke clearly and didn’t panic. Their comment made me feel seen.",joy,neutral,0.5368379950523376
+"Sat in a café for two hours writing, and everything just flowed. No writer’s block. Just smooth ideas connecting themselves. Days like this make all the stress feel worth it.",joy,joy,0.7657834887504578
+I wore my favorite jacket today and a stranger said they liked my style. It made me grin like a fool. Sometimes joy comes from random people you’ll never meet again.,joy,joy,0.9703975915908813
+"Today was simple: good breakfast, good music, good energy. Nothing extraordinary, nothing dramatic. But I smiled quietly to myself while walking to class. That was enough.",joy,neutral,0.7476319074630737
+Watched the sunset with a friend and we didn’t talk much — just watched. It felt like peace doesn’t always need words. Silence can be joyful too.,joy,joy,0.79998379945755
+Got an email saying I was selected for a scholarship interview. I screamed. Out loud. Alone in my room. It felt like life tossed me a little beam of light today.,joy,joy,0.9415094256401062
+I helped a classmate with their assignment and they gave me homemade brownies as thanks. Best brownies I’ve ever had. Good deeds should always taste this good.,joy,joy,0.9668235778808594
+I think I’m changing. I caught myself humming today while waiting for the bus. That doesn’t happen when I’m anxious. Maybe things are getting better.,joy,neutral,0.7140504717826843
+"I found a quiet corner in the library that nobody else uses. It’s become my little sanctuary. Every time I sit there, I feel like I can breathe properly.",joy,neutral,0.7164144515991211
+Started going to the gym this week and I’m actually enjoying it. Not for the results — just the feeling of movement. My body feels awake.,joy,joy,0.8454617261886597
+"Had such a nice conversation with Dad today. Short but warm. He said, “You’re doing good, kid.” I didn’t realize how much I needed to hear that.",joy,neutral,0.6784692406654358
+Bought fresh fruit from the market and made a smoothie. DRANK THE WHOLE THING WITH JOY. Might become a health freak. Probably not. But today it felt good.,joy,joy,0.6109091639518738
+"I laughed so hard during lunch today that tears came out. I don’t even remember the joke anymore, but damn, it felt good to laugh like that.",joy,joy,0.912874698638916
+Got back a grade that I thought would be bad — but it wasn’t. I’m not failing. I’m actually doing okay. Maybe I should give myself more credit.,joy,neutral,0.8543192744255066
+My sibling sent me a video of our dog chasing his tail. I must have watched it 10 times. Pure joy in 15 seconds. I love that dumb fluffy creature.,joy,joy,0.9559785723686218
+"I took myself out on a “date” today — café, journal, good music. I didn’t feel lonely. I felt comfortable with myself. That’s new. That’s growth.",joy,joy,0.8387438654899597
+I heard my favorite song while shopping for groceries and literally did a tiny dance in the aisle. I didn’t even care if anyone saw.,joy,joy,0.5691375732421875
+Managed to get enough sleep last night. Eight full hours. Woke up calm. No headaches. No stress. Sleep is underrated happiness.,joy,neutral,0.8942458033561707
+My supervisor said I show “real curiosity” in my research. That one phrase made me feel so alive. Curiosity is why I started this journey in the first place.,joy,neutral,0.8130820393562317
+Met a cat near my building that let me pet it. Instant serotonin. It followed me for three blocks. I wanted to keep it forever.,joy,neutral,0.6953731775283813
+Did yoga today for the first time in ages and almost cried with relief. My body felt open and clear. It was quiet inside my head for once.,joy,joy,0.7307588458061218
+Cooked dinner with a friend and we laughed the entire time because nothing went according to plan. The meal came out chaotic but delicious. Imperfect joy is still joy.,joy,joy,0.9616098403930664
+I found an old playlist from high school and listened to it while studying. It brought back memories that made me smile instead of sad. That surprised me.,joy,surprise,0.7819927930831909
+The sun hit my face just right while I was walking and I closed my eyes for a moment. That tiny moment felt like gratitude.,joy,joy,0.910377025604248
+Tried on clothes I thought wouldn’t fit anymore — they did. I felt confident. I even took a picture. Not to post. Just to remember that feeling.,joy,joy,0.8353176116943359
+Had a movie night with friends and we laughed until our stomachs hurt. I didn’t think about deadlines once. That felt like freedom.,joy,joy,0.8154396414756775
+I talked to someone new today and it didn’t feel scary. I was actually excited to learn about them. Maybe joy is also connection.,joy,joy,0.6608315110206604
+The café near campus gave me a free cookie because I’m a “regular.” That tiny gesture made me feel known.,joy,joy,0.5846489667892456
+"My anxiety has been quieter lately. Not gone, but softer. Today I noticed the calm more than the fear. That itself felt like joy.",joy,joy,0.675382137298584
+I went to bed early and read a book instead of doom-scrolling on my phone. The story was comforting. I forgot how good it feels to read just for pleasure.,joy,joy,0.6246717572212219
+"It rained today — light rain, not sad rain. I stood under it for a moment and just smiled. Some days the world feels kind.",joy,joy,0.6849725246429443
+I caught myself feeling proud while working today. Actually proud. I think I’m finally believing that I can do this.,joy,joy,0.9664129018783569
+My friend sent me a meme that made me laugh so loud I scared my roommate. Dumb joy is still joy.,joy,joy,0.8584662079811096
+"Tonight, I whispered “thank you” into the dark before sleeping. Not to anyone specific — just to life. I’m still here. I’m still trying. And today, that feels like enough.",joy,neutral,0.7996966242790222
+I woke up already annoyed today and I don’t even know why. Just this tension in my chest like something’s wrong. Even my toothbrush felt aggressive. I hate mornings when everything starts off wrong.,anger,anger,0.9496816992759705
+I spent four hours on that assignment and the software crashed before I saved. FOUR HOURS. I almost threw my laptop across the room. Why does everything break exactly when I need it to work?,anger,anger,0.4334022104740143
+"I hate how people only text me when they need something. Not a “hey how are you,” just “can you help me with this?” Feels like I’m a tool, not a friend.",anger,disgust,0.48287340998649597
+My supervisor dismissed my idea today. Not with criticism — with condescension. Like I’m some clueless kid. I wanted to yell. Instead I said “okay” and swallowed the rage.,anger,anger,0.6123989820480347
+I’m angry that people don’t respect deadlines. Spent hours fixing someone else’s careless mistakes. Why do I have to clean up after everyone?,anger,anger,0.9909231066703796
+"I snapped at my roommate today over something minor. Felt ridiculous immediately after, but I couldn’t stop the anger from bubbling over.",anger,anger,0.9091776013374329
+Tried to work in the library but some guy kept talking loudly on his phone for 30 minutes. Why do people assume public spaces are their personal living rooms?,anger,disgust,0.5522948503494263
+I’m angry at myself for procrastinating. It’s like I know exactly what I need to do but still choose to sabotage myself. And then I feel guilty. And then angry again. It’s a cycle.,anger,anger,0.824795663356781
+My friend cancelled plans last minute. Again. They didn’t even apologize properly. Just “something came up.” I’m tired of always being the backup option.,anger,sadness,0.6118044257164001
+"I called a family member to talk, but they made it all about them. I felt invisible. Why is it so hard for them to just listen?",anger,sadness,0.3793163299560547
+Got stuck in traffic for an hour because someone decided to park in the middle of the road. People are unbelievably selfish sometimes.,anger,disgust,0.7848617434501648
+"Sometimes I’m angry at the whole university system. Deadlines, pressure, fake smiles, people pretending to have it all together. We’re all drowning but no one wants to admit it.",anger,anger,0.9787653088569641
+People say “take care of your mental health” while piling on more responsibilities. The hypocrisy pisses me off.,anger,disgust,0.7959608435630798
+Why do people ask “are you okay?” when they clearly don’t want the real answer? It’s just social noise. Empty words.,anger,neutral,0.9101380109786987
+I did all the group work for our project and they still got the same grade as me. I’m furious. They didn’t even thank me.,anger,anger,0.9862174987792969
+"I’m mad that I keep comparing myself to others. I don’t want to, but I do. And then I hate myself for doing it. It’s exhausting.",anger,sadness,0.7448377013206482
+Had a stupid argument with someone today and I kept thinking of all the good comebacks only AFTER it ended. The anger just kept simmering inside me.,anger,anger,0.9492887854576111
+I wish I had the guts to speak my mind when things bother me. Instead I stay quiet and build resentment. It’s slowly poisoning me.,anger,sadness,0.49058598279953003
+Anger feels safer than sadness. At least it gives me energy. I think I’m using it as armor.,anger,anger,0.6333272457122803
+"I hate how people underestimate me when I try to be polite. Being kind doesn’t mean I’m weak. I swear, some days I want to show my teeth.",anger,disgust,0.6510652303695679
+Why do professors assign three major deadlines on the same week??? It’s like they’re competing to make us suffer.,anger,disgust,0.490299791097641
+Someone took my food from the shared fridge. Just took it. I almost wrote a threatening note but decided to let karma handle it.,anger,neutral,0.6445353031158447
+"I’m annoyed at my constant tiredness. I sleep, but wake up exhausted. I eat well, but feel drained. I exercise but feel heavy. It’s infuriating not to know why.",anger,disgust,0.35058683156967163
+Sometimes people talk over me in conversations and I just… disappear. I get so angry when my voice doesn’t count.,anger,anger,0.8620167374610901
+I found a mistake in my thesis draft that I missed weeks ago and now I have to redo a whole section. My anger is directed at my own damn carelessness.,anger,anger,0.9473811388015747
+"Why does everything cost money? Books, food, rent, transport. Even breathing feels expensive. Capitalism makes me want to scream.",anger,disgust,0.6286008358001709
+I heard someone gossiping about me today. I pretended not to care but it got under my skin. Fake people are the worst.,anger,disgust,0.9716871380805969
+I’ve been waiting for a reply to a crucial email for days. Nothing yet. Why can’t people just reply when it takes TWO MINUTES?,anger,neutral,0.5155336856842041
+"I hate that when I’m angry, people tell me to “calm down.” That just makes things worse. Let me feel things.",anger,anger,0.8183406591415405
+"I’m angry that childhood ended without warning. One day I was carefree, the next day everything was a responsibility. Nobody prepared me for the emotional tax of adulthood.",anger,anger,0.9902939796447754
+I tried to relax by watching a movie but buffering ruined the whole experience. Internet glitches should be considered emotional violence.,anger,neutral,0.8704878687858582
+Some days I feel anger burning inside me with no target. Just heat. I pace around my room like a trapped animal.,anger,anger,0.9301996231079102
+I hate unsolicited advice. People assume they know my situation when they don’t understand a single detail.,anger,disgust,0.5927495956420898
+Got interrupted three times while working today and completely lost my flow. I wanted silence. I got chaos.,anger,neutral,0.6893723011016846
+It pisses me off when people say “others have it worse.” That doesn’t make my feelings invalid. Everyone deserves space to struggle.,anger,neutral,0.6602627038955688
+I’m mad that I’m always the “responsible one.” It’s exhausting being the person people rely on.,anger,anger,0.5458177328109741
+I said something wrong in a conversation and now I can’t stop replaying it. Anger at myself is the worst kind. It stays.,anger,anger,0.6703465580940247
+My laptop fan sounds like a helicopter every time I open a heavy file. Why does technology fail exactly when you need it most?,anger,surprise,0.577152669429779
+I went grocery shopping and some dude cut the line like rules don’t apply to him. I wanted to shove him with my cart.,anger,neutral,0.4435638189315796
+I’m angry at my sudden bursts of motivation — because they arrive when I’m busy and vanish when I finally have time.,anger,anger,0.98700350522995
+"Why does expressing anger make people uncomfortable? It’s just another emotion. But when I show it, I feel like I have to apologize.",anger,sadness,0.5701846480369568
+I cleaned my entire room out of pure rage today. I guess anger can be productive sometimes. At least the floor is spotless.,anger,anger,0.5502156615257263
+My headphones broke again. They were only two months old. I can’t afford new ones. That tiny snap felt like personal betrayal.,anger,sadness,0.8375035524368286
+"Someone said I look “tired.” Not “how are you,” just “you look tired.” It sounded like judgment disguised as concern.",anger,neutral,0.5612494349479675
+I hate wasting time. I hate feeling stuck. I hate watching hours pass while I accomplish nothing. Makes me feel like the world is moving without me.,anger,sadness,0.9231747388839722
+Sometimes I catch myself smiling but then remember all the things that need fixing. And then the smile just disappears. I’m annoyed that joy feels temporary.,anger,anger,0.8405178189277649
+I’m angry that people think introversion is a flaw. It isn’t. I’m not antisocial — I just value peace.,anger,anger,0.9809203147888184
+I overheard two people bragging about cheating on an exam. Meanwhile I worked my ass off. The unfairness makes my blood boil.,anger,disgust,0.4853576421737671
+I hate when automated customer service keeps me on hold for 40 minutes and then hangs up. Machines should not have the power to ruin my day.,anger,disgust,0.39560964703559875
+"Sometimes I wonder if anger is just fear wearing armor. Either way, I’m tired of carrying it around — it’s too heavy.",anger,neutral,0.4359784424304962
+"I woke up at 3 AM tonight with my heart pounding again. No nightmare that I can remember, just this sudden fear that I’m behind in everything — my work, my life, my future. I tried to breathe slowly, but even my own breathing sounded loud and wrong. I hate when the fear comes out of nowhere like that. It makes me feel haunted.",fear,fear,0.9428685307502747
+"I spent the whole day staring at my thesis draft and honestly, I’m terrified that it’s all just… mediocre. What if I’m not actually capable of producing something meaningful? What if they see through me — see that I don't belong here at all? I keep imagining the day of submission and someone laughing at it. That image doesn’t leave me.",fear,fear,0.7874661684036255
+"I saw a missed call from home and my heart dropped instantly. Every time they call unexpectedly, I’m scared something bad has happened. I love them so much that the idea of losing them feels unbearable. Took me thirty minutes to call back. Everything was normal. But I still felt shaky afterward.",fear,fear,0.7434844970703125
+"I had a dream where I couldn’t find my keys, but it felt real. Woke up panicking, heart racing, and it took me a good five minutes to remember it was just a dream.",fear,neutral,0.3816641569137573
+"I’m scared that my anxiety is starting to define me. Every choice I make, I second-guess, and it’s exhausting. What if I can’t escape it?",fear,fear,0.9374191761016846
+I hesitated before leaving the house today because of something small—a weird noise outside—but I kept imagining the worst. My imagination can be terrifying sometimes.,fear,fear,0.9785850048065186
+I fear that I’ll disappoint everyone I care about. Even small mistakes feel like they’ll spiral out of control. It’s like carrying an invisible weight all the time.,fear,neutral,0.5624586939811707
+"Sometimes I think I’m afraid of being happy. Because as soon as things go well, my brain whispers, “This won’t last.” So I start preparing for disaster. It’s like joy scares me more than sadness.",fear,fear,0.6261831521987915
+"I didn’t speak up in class today because I was scared my idea didn’t make sense. Later, someone said the same thing I was thinking — and everyone agreed with them. Instead of feeling validated, I just felt small. Like fear made me invisible again.",fear,fear,0.463288277387619
+"The silence in my room at night feels heavy — not peaceful. I hear every creak, every distant car, every beat of my own pulse. Fear lives in that silence. Maybe that’s why I keep the fan on, even when it’s cold.",fear,neutral,0.7738849520683289
+"I know it’s irrational, but I’m scared of checking my emails lately. Every notification feels like bad news waiting to pounce. Sometimes I open Gmail and close it immediately. It’s ridiculous, but fear turns simple tasks into mountains.",fear,fear,0.7865774631500244
+"I heard ambulance sirens while walking home today, and I instantly imagined the worst — someone I know, someone I love. My mind jumped miles ahead of reality. Why does fear travel faster than logic?",fear,neutral,0.48560404777526855
+"I fear that I’m drifting away from my friends. We don’t talk as much as we used to. Everyone’s busy and moving forward. What if I get left behind — not because I failed, but because I faded?",fear,fear,0.4461892545223236
+Sometimes I wonder if I’ve already peaked. If the best version of me existed years ago and now it’s just a slow decline. That thought scares the hell out of me but I can’t shake it.,fear,fear,0.6762649416923523
+"I saw photos of people my age getting married, traveling, achieving things, and suddenly felt this intense panic — what if I’m running out of time to figure out who I am? Life moves too fast. I’m scared I won’t catch up.",fear,fear,0.9680270552635193
+"I fear disappointing people — not in big ways, but small ones. Like forgetting a message, canceling a plan, sounding uninterested. I worry they’re slowly collecting reasons to give up on me.",fear,sadness,0.4553152024745941
+I’ve been avoiding looking at my bank balance. I’m scared it’ll remind me of how fragile my life is right now. One emergency and everything could collapse. That kind of instability terrifies me.,fear,fear,0.9192623496055603
+"I walked into my supervisor’s office today with a knot in my stomach. I rehearsed my sentences like a scared actor. They were actually kind, but the fear stayed even after I left. It lingers, like a scent you can’t wash off.",fear,fear,0.6304969787597656
+"Sometimes I feel like I’m scared of growing up. Bills, responsibilities, expectations — they all pile up. I miss being a kid. Back then, a bad day meant losing a pencil. Now a bad day feels like losing my future.",fear,fear,0.710695207118988
+I worry that I’m too quiet. That people think I’m distant or uninterested. The truth is I’m just scared of saying the wrong thing. But fear makes silence feel safer — even when I don’t want it.,fear,neutral,0.5353288054466248
+There’s this one health symptom I’ve been ignoring because I’m afraid of what a doctor might say. I know that’s stupid — but fear sometimes prefers ignorance over truth.,fear,neutral,0.8803344368934631
+"I tried meditation today to calm my anxiety, but silence made me more nervous. My thoughts got louder. My heartbeat got faster. Maybe I’m scared of being alone with my own mind.",fear,fear,0.8713943362236023
+I have this deep fear of wasting my potential. Like there’s a better version of me trapped somewhere and I’m failing to find them. What if I never do?,fear,fear,0.7334442138671875
+"I sometimes fear that I care more about people than they care about me. When conversations end abruptly or plans fall through, my brain fills in the blanks with worst-case scenarios.",fear,neutral,0.620429277420044
+"My friend asked if I’m okay today and I almost said everything out loud. But I didn’t. I’m scared that if I start talking about my fears, they’ll become more real.",fear,fear,0.8650830984115601
+"I’m afraid of love — wanting it, losing it, not deserving it. Relationships seem like walking into a beautiful room with an exit you can’t control. That uncertainty scares me.",fear,fear,0.9220003485679626
+My biggest academic fear isn’t failing — it’s doing average work and disappearing into noise. Failure is visible. Mediocrity is silent. Silence scares me more.,fear,neutral,0.49215322732925415
+Sometimes I imagine packing everything and leaving town. A fresh start. But then fear whispers: you’ll still be you wherever you go. And that thought keeps me here.,fear,neutral,0.6528863906860352
+I get scared before sleep most nights. Afraid of waking up to the same problems. Afraid of not waking up at all. Fear has a habit of standing right by the door before dreams.,fear,fear,0.8172464966773987
+"I worry that when I finally graduate, real life will feel even harder. What if I’m better at studying life than living it?",fear,sadness,0.7936762571334839
+"There’s a crack in my confidence lately, and I don’t know how to fix it. I fear that one day someone will see it — and everything will crumble.",fear,sadness,0.8331125974655151
+"Sometimes I fear that people only tolerate me. That I’m forgettable the moment I leave the room. It’s exhausting thinking this way, but fear rarely asks permission.",fear,fear,0.5602508187294006
+"I’m scared of calling home sometimes because I know they’ll ask how I’m doing. And I don’t want to lie, but I don’t want to worry them either. So I postpone the call and carry the fear alone.",fear,fear,0.4897816479206085
+"Saw an old photo of myself today — smiling, carefree. It scared me how distant that person feels. I wonder if I can ever be them again.",fear,sadness,0.8604047298431396
+I have this fear of choosing the wrong path. What if I pick a career and realize years later that I hate it? The thought of irreversible decisions scares me more than failure.,fear,fear,0.8376689553260803
+"My hands shake when I give presentations, even tiny ones. I fear people can see how terrified I am. I try to hide it, but my body betrays me every time.",fear,fear,0.9707618951797485
+Sometimes I avoid mirrors because I fear seeing someone disappointed with me staring back.,fear,neutral,0.7709541320800781
+"Even when good things happen, there’s a voice in my head that says, “Enjoy it before it ends.” I wish joy didn’t come with expiration dates stamped by fear.",fear,neutral,0.6725185513496399
+I’m scared I’ll never fully trust people. That every close relationship will carry the fear of loss. Maybe that’s why I keep some distance.,fear,fear,0.4917931854724884
+I fear asking for help because it makes me feel exposed. Weak. I wish vulnerability didn’t feel like a risk.,fear,fear,0.692462146282196
+I pretended to understand a lecture today. I didn’t. I’m scared to ask questions because I don’t want to look stupid. But now I’m even more lost. Fear wins again.,fear,fear,0.6679063439369202
+"Every time I hear about someone young passing away, I panic. Life feels so fragile. I start thinking about my own time running out. It makes everything feel urgent and pointless at the same time.",fear,fear,0.9555412530899048
+I’m scared of not being able to afford the future I dream of. What if ambition isn’t enough without money to back it?,fear,fear,0.9270302653312683
+I have a fear of losing memories. What if I forget the good moments? What if they already faded and I didn’t notice?,fear,fear,0.8023368120193481
+I avoid talking about feelings in real life. What if someone reacts badly? What if they don’t care? Writing feels safer than speaking.,fear,neutral,0.5904442071914673
+Sometimes I feel like my anxiety is visible — like people can read it on my face. That fear makes me even more anxious.,fear,fear,0.6941207647323608
+"I fear becoming bitter. I’ve seen people harden over time, turn cold. I don’t want to be like that — but fear and disappointment slowly build walls.",fear,neutral,0.6035265326499939
+I’m scared that I’ll look back one day and realize I never truly lived — that I only worried through my years instead of experiencing them.,fear,fear,0.7844019532203674
+"Some days, I fear I don’t know myself anymore. I change with stress, with people, with pressure. When I ask myself who I am, the answer feels blurry. That scares me most.",fear,fear,0.7384824752807617
+"Tonight, I whispered out loud, “I’m scared.” It felt strange — but honest. Maybe fear loses a little power when spoken. Maybe tomorrow I’ll try again.",fear,fear,0.9157093167304993
+It’s strange how love makes everything louder and quieter at the same time. I heard her laugh across the hallway and forgot what I was stressed about. Just like that. Gone.,love,surprise,0.41138917207717896
+"Had coffee with my dad on video call tonight. He told me the same story he’s told a hundred times, but I listened like it was new. Loving someone means letting them repeat their memories until they become part of yours.",love,neutral,0.8671934604644775
+"I walked home under the rain and instead of rushing, I slowed down. I thought of her hand in mine and suddenly the rain felt like music.",love,neutral,0.5019474625587463
+"Honestly, loving someone scares me, but it also makes me want to be better. That has to count for something.",love,neutral,0.7083108425140381
+I think I finally understand why people write poems. Some feelings don’t fit inside regular sentences.,love,neutral,0.9390645027160645
+I want to text her “I miss you” but I’m overthinking every word. Why does love make me feel like I’m back in high school?,love,sadness,0.9409699440002441
+Sometimes I worry I don’t show people how much they mean to me. Love shouldn’t be assumed. I should say it more.,love,neutral,0.6513927578926086
+"Had a long day in the lab but when my friend showed up with snacks and said “you looked tired in the morning,” it hit me—being seen is a kind of love.",love,joy,0.9771610498428345
+Love feels like waking up and actually wanting the day to start. I haven’t felt that in a long time.,love,joy,0.5341060161590576
+Went grocery shopping with him today and laughed the entire time. Even picking tomatoes felt fun. That’s how I know it’s real.,love,joy,0.8941822648048401
+I used to think love was grand gestures. Now I think it’s remembering how someone takes their tea.,love,neutral,0.9111541509628296
+"When she fell asleep during our call, I heard her breathing for a minute before hanging up. It felt too peaceful to interrupt.",love,neutral,0.8887120485305786
+I felt loved today when my supervisor asked if I was eating well. It surprised me. Academics and love don’t usually mix—but today they did.,love,joy,0.9455161690711975
+Love is when you don’t have to pretend you’re not tired. You just are. And they’re still there.,love,joy,0.5923170447349548
+I cleaned my room today because she said messy space means messy mind. I didn’t do it for mental health—I did it because she cares.,love,neutral,0.6127078533172607
+I swear the world looks different when you love someone. Even the clouds look softer.,love,neutral,0.4497869610786438
+"My friend hugged me today. A long, warm one. I didn’t realize how much I needed it until I felt it.",love,joy,0.910712480545044
+"I don’t think love fixes everything, but it definitely makes the pain easier to carry.",love,neutral,0.7807400822639465
+He brought me soup when I was sick and didn’t make a big deal about it. That’s love—helping without turning it into a performance.,love,joy,0.6467893123626709
+Love sometimes feels like standing on a cliff—terrifying but beautiful.,love,joy,0.9598595499992371
+I caught myself rehearsing compliments in the mirror. I want to say them right. I want her to know I mean them.,love,neutral,0.8965800404548645
+It’s wild how love makes you notice tiny details—like how someone scrunches their nose when they read something confusing.,love,joy,0.7318699955940247
+Listened to my favorite old song today and thought about how love makes memories echo louder.,love,joy,0.8328116536140442
+"Saw an elderly couple on the bus, quietly holding hands. No words. Just decades of quiet promises kept.",love,neutral,0.5957996845245361
+I hope the people I care about never have to doubt it. Even when I’m tired. Even when I’m busy.,love,neutral,0.8334169983863831
+Love isn’t always romantic. Sometimes it’s your friend sending memes at 2 a.m. just to check if you’re awake.,love,neutral,0.9753835797309875
+Dad said “drive safe” at the end of our call instead of “bye.” I’ve heard that phrase my whole life. It never gets old.,love,neutral,0.9629402756690979
+Sometimes love is choosing not to argue even when you’re right.,love,neutral,0.9483479261398315
+Talked to her about my fears today. She didn’t try to fix them. She just listened. That felt like love.,love,neutral,0.8336353898048401
+"I want to remember these small, warm moments because I know life won’t always feel this kind.",love,neutral,0.45729392766952515
+I woke up anxious but her good morning text calmed me more than meditation ever has.,love,neutral,0.7358062863349915
+Love is when someone remembers your birthday without Facebook reminding them.,love,joy,0.6419870257377625
+He made me laugh so hard today I forgot I’d been stressed for weeks. I love that kind of magic.,love,joy,0.972820520401001
+Saw my reflection today and noticed—I look happier lately.,love,joy,0.9301273226737976
+I think love teaches patience more than anything. People unfold slowly.,love,neutral,0.8283104300498962
+Sometimes I love people so much it hurts. Not in a bad way—just in a “please stay safe” kind of way.,love,neutral,0.4113294780254364
+"Love is staying up late to help a friend finish their thesis, even when your own work is piling up.",love,neutral,0.41715580224990845
+"I’m learning that love means accepting imperfections—not fixing them, but holding them gently.",love,neutral,0.8463830947875977
+She held my hand when I was shaking from anxiety. Didn’t say a word. Just stayed.,love,fear,0.8453344702720642
+"Love makes time behave strangely—hours can feel like seconds, and days can feel like years apart.",love,sadness,0.8215250372886658
+I sent my friend a long message today just to say thank you for existing. I hope it made her smile.,love,joy,0.728152334690094
+My brother texted me “proud of you.” Four simple words. I teared up instantly.,love,joy,0.9681237936019897
+Love is when silence feels comfortable instead of awkward.,love,neutral,0.8857568502426147
+I saw my friends laughing today and I thought: I’m lucky to live in a world where these people exist.,love,joy,0.9771356582641602
+I cooked dinner for someone special tonight. Burned half of it. We still laughed and ate everything. That’s love.,love,joy,0.5458999872207642
+Sometimes I catch myself daydreaming about a future that feels less heavy—and it always includes the people I love now.,love,sadness,0.5868257880210876
+She waited for me at the library just so we could walk back together. No reason. Just didn’t want me to walk alone.,love,neutral,0.8434255719184875
+I love the feeling of coming home after a long day and knowing someone is happy I exist—even if it’s just my dog.,love,joy,0.9511519074440002
+I think the ultimate form of love is choosing to stay—especially when it would be easier to leave.,love,neutral,0.7666511535644531
+"If this is what love feels like—calm, patient, hopeful—then I’m glad I waited for it.",love,neutral,0.7882417440414429
+I woke up before my alarm today and actually felt… rested. Didn’t expect that. It was like my brain gave me a tiny gift after weeks of exhaustion.,surprise,joy,0.7434826493263245
+"I checked my mailbox on a whim and found a letter I didn’t expect. Not a bill, not spam, just a handwritten note from an old friend. I don’t even know how to describe the feeling—warm and strange all at once.",surprise,neutral,0.8903802633285522
+I submitted my draft to my supervisor expecting harsh feedback but she said it was “promising.” I think I reread that word five times. Promising?? Me?,surprise,surprise,0.45574259757995605
+Ran into an old friend at the bus stop—hadn’t seen him in five years. We talked like we’d only been apart for a week. Some connections really don’t fade.,surprise,sadness,0.5962716341018677
+I tried cooking something new today just for fun and it actually tasted good. I’m still shocked. Maybe I’m not hopeless in the kitchen after all.,surprise,surprise,0.983171820640564
+My sister called to say she misses me. She never says stuff like that. Took me completely off guard. I almost cried in the library.,surprise,fear,0.8806504607200623
+"I spent the whole week expecting to fail that presentation—but people actually clapped. Yo. They meant it, too.",surprise,surprise,0.5143303275108337
+Someone returned my lost student card today. I didn’t even know it was gone.,surprise,neutral,0.7041771411895752
+"I looked in the mirror today and thought, “I look… alright.” That surprised me more than anything this month.",surprise,surprise,0.786674976348877
+"My anxiety eased up for a few hours today. I don’t know why, but I welcomed the break.",surprise,neutral,0.8833553194999695
+I got an email saying I received a small grant for my research. I genuinely thought it was spam at first.,surprise,neutral,0.6951478719711304
+I laughed today—like properly laughed—at a dumb TikTok my friend sent me. It felt so sudden and real.,surprise,joy,0.7840837836265564
+I found my childhood photo while cleaning my drawer. I stared at it for longer than I should have. Felt like meeting a stranger.,surprise,neutral,0.496995210647583
+The professor who always seems distant said I asked a “good question” in class. I almost checked if she was talking to someone else.,surprise,neutral,0.8492700457572937
+I had a quiet evening with no deadlines haunting me. I didn’t know what to do with the peace.,surprise,sadness,0.7095614671707153
+Visited the campus café and the barista remembered my order. That tiny detail made me unexpectedly happy.,surprise,joy,0.9726125001907349
+Mom told me she’s proud of me. I don’t think I was ready to hear it. It hit harder than I expected.,surprise,neutral,0.3518137037754059
+I found an old voicemail from my grandpa today. Didn’t realize I still had it. His voice felt like a hug I didn’t know I needed.,surprise,neutral,0.8430402278900146
+I actually understood a complex research paper on first read. I thought I opened the wrong document for a second.,surprise,neutral,0.6447109580039978
+"I messaged someone I thought hated me, and they replied kindly. Maybe I overthink things too much.",surprise,neutral,0.5312978029251099
+The sky was pink tonight—cotton candy pink. I stopped walking just to stare. Nature really knows how to surprise you.,surprise,neutral,0.6483051180839539
+My friend invited me to a group hangout. I thought nobody even noticed I’d been quiet lately.,surprise,neutral,0.9013013243675232
+"Today I felt confident during a conversation. No stuttering, no panicking—just me, existing normally. Wild.",surprise,joy,0.6606720685958862
+I thought I was too tired to function but ended up finishing my entire to-do list somehow. I still don’t know how it happened.,surprise,surprise,0.7379511594772339
+My dad sent me a meme. A meme. Didn’t even know he knew how to download images.,surprise,neutral,0.7537907361984253
+"I checked my bank account expecting disaster, but I actually had more money than I thought. A rare miracle.",surprise,surprise,0.6807612180709839
+I found a quiet corner on campus that nobody seems to know about. It felt like discovering treasure.,surprise,neutral,0.5000724792480469
+I listened to a new song and instantly loved it. It’s rare for music to hit on the first play.,surprise,neutral,0.49772047996520996
+I apologized to someone today and they forgave me immediately. I wasn’t expecting grace.,surprise,sadness,0.8015030026435852
+I tried drawing after years of not touching a pencil. It wasn’t awful. That surprised me more than it should have.,surprise,neutral,0.5929232239723206
+Received a text from someone I thought forgot me. They said they were just busy. I felt relief and surprise mixing together.,surprise,joy,0.9141489863395691
+"The rain started right when I stepped outside—but instead of being annoyed, I felt oddly calm, like it was meant to happen.",surprise,neutral,0.48395222425460815
+I realized today that I haven’t had a panic attack in a while. Knock on wood—but that’s a surprising win.,surprise,surprise,0.6849731206893921
+I found my old favorite song today and remembered every single lyric. It was like muscle memory of the heart.,surprise,neutral,0.9716618061065674
+I genuinely enjoyed a lecture today. Didn’t expect to—maybe that’s growth?,surprise,joy,0.8907660841941833
+Someone complimented my handwriting. No one’s done that since primary school.,surprise,disgust,0.38219696283340454
+I tried wearing a color I never wear. A stranger said it suited me. Might try it again.,surprise,neutral,0.8894311785697937
+I didn’t have the energy to cry today. That in itself felt surprising.,surprise,surprise,0.9762587547302246
+My roommate cleaned the kitchen without being asked. I almost fainted.,surprise,disgust,0.6620604395866394
+I accidentally joined a group discussion and ended up leading it. I shocked myself with how confident I sounded.,surprise,surprise,0.3419586718082428
+I remembered a dream when I woke up. That hasn’t happened in ages. Still thinking about it.,surprise,neutral,0.9564745426177979
+Dad hugged me when I visited home. He’s not usually expressive. It threw me off—in a good way.,surprise,joy,0.8841889500617981
+I heard someone say they admire my dedication. I didn’t know anyone noticed.,surprise,neutral,0.8110299706459045
+I felt okay in my own company today. That was unexpected. No loneliness—just stillness.,surprise,joy,0.7856879830360413
+"A kid smiled at me while I walked past a park. Such a small thing, but it brightened my whole afternoon.",surprise,joy,0.9487358927726746
+Someone said I look healthier lately. I didn’t realize I had changed. Maybe healing happens quietly.,surprise,neutral,0.9110406637191772
+I reread an old journal entry and realized I’ve grown. That genuinely surprised me. I didn’t think I had.,surprise,surprise,0.976437509059906
+"I made a spontaneous decision today—and it felt good, not reckless. Maybe I’m starting to trust myself.",surprise,neutral,0.4398996829986572
+"I felt hope out of nowhere today. Not sure why, but I held on to it like a gift.",surprise,neutral,0.9541867971420288
+"My friend said, “I’m always here for you.” I believed them. That was the biggest surprise of all.",surprise,joy,0.7117565274238586
+"Woke up tired but not upset about it. Some days are just flat like that. I made coffee, scrolled through some articles, and started working. Nothing special, but not bad either.",neutral,neutral,0.933297336101532
+"Had a normal study session at the library. Didn’t feel particularly motivated, but I got things done slowly. Productivity at 60%, emotions at 50%. Just average.",neutral,neutral,0.6723712682723999
+"Talked to a friend today. Not a deep conversation, just small talk. It felt fine—neither comforting nor disappointing. Sometimes that’s enough.",neutral,neutral,0.8929912447929382
+"I cooked dinner and it tasted okay. Not great, not terrible. Just food doing its job.",neutral,neutral,0.883831262588501
+"I walked home while listening to music and didn’t think about anything. Just let the world be. Honestly, it felt nice not to overthink for once.",neutral,neutral,0.52227783203125
+"Spent three hours on my thesis today. Didn’t hate it, didn’t love it. Just kept typing. Progress exists, even if enthusiasm doesn’t.",neutral,neutral,0.9232161641120911
+"Watched a show tonight. Didn’t laugh much, didn’t cry. Just consumed content like a regular human machine.",neutral,neutral,0.7124909162521362
+"Had a call with mom. She talked a lot, I listened. It was calm. No big emotions involved, just regular family energy.",neutral,neutral,0.9473606944084167
+"Cleaned my desk simply because it was messy. I didn’t feel good afterward, but it felt natural, like brushing teeth. Necessary.",neutral,neutral,0.7661781311035156
+"Nothing happened today. Literally nothing worth writing about. Still, I don’t feel empty. Just steady.",neutral,neutral,0.6246849298477173
+"Sat in class and took notes. Didn’t understand everything, but didn’t panic either. I’ll catch up eventually.",neutral,neutral,0.9396624565124512
+I think I’ve accepted that not every day needs to teach me something profound. Some days can just exist.,neutral,neutral,0.521075427532196
+Ate lunch alone today. Not lonely—just alone. There’s a difference.,neutral,neutral,0.966556966304779
+Listened to people argue about politics and didn’t feel the urge to join. I don’t have the energy for opinions today.,neutral,neutral,0.8359265923500061
+I looked at my reflection and didn’t criticize myself. Didn’t compliment myself either. That felt surprisingly peaceful.,neutral,joy,0.7786662578582764
+"Had the most normal day. Woke up, studied, replied to emails, went to bed. No emotional high, no crash. Just life happening.",neutral,neutral,0.7616055011749268
+"I’ve been thinking less lately. Maybe that’s a sign of calmness, or maybe I’m just tired. Hard to tell.",neutral,neutral,0.9425668120384216
+"I’m not particularly happy, but I’m not sad either. I wonder if this state has a name. It feels like floating.",neutral,neutral,0.8340807557106018
+Went grocery shopping. Packed the fridge. Did laundry. All the routine things. Felt like maintenance mode.,neutral,neutral,0.9734026789665222
+Nothing inspired me today. Nothing bothered me either. Maybe I’m adjusting to the quiet.,neutral,neutral,0.6735426783561707
+Sometimes I think neutrality isn’t lack of feeling—it’s just a pause. A space between things.,neutral,neutral,0.9825929403305054
+Didn’t check social media much today. Didn’t miss it either. Digital silence feels normal now.,neutral,neutral,0.946893036365509
+"Walked outside without a destination. Cars passed, birds made sounds, wind blew. I just kept moving.",neutral,neutral,0.754838764667511
+"I don’t feel stuck, but I don’t feel driven. I’m just here. And honestly, that’s okay.",neutral,neutral,0.760136067867279
+"I answered messages without overthinking words. Writing felt mechanical, but not cold.",neutral,neutral,0.9739468097686768
+"Had a decent cup of tea. Nothing magical, just warm liquid in a cup. Comfort without intensity.",neutral,neutral,0.9561467170715332
+"Sometimes I feel like my life is on autopilot—but the flight is smooth, so I’m not complaining.",neutral,neutral,0.8534852862358093
+My thoughts today were like background noise. Present but ignorable.,neutral,neutral,0.7805435061454773
+"I’m not celebrating anything, not worried about anything. It’s like emotional equilibrium.",neutral,neutral,0.9477880001068115
+"I miss feeling excited, but I don’t crave it. Maybe that means I’m tired. Or healing.",neutral,joy,0.6583660244941711
+Studied for a few hours and didn’t procrastinate. Not because I was motivated—just because it needed to be done.,neutral,neutral,0.9184633493423462
+Watched raindrops slide down the window for a while. Not poetic—just something to look at.,neutral,neutral,0.9056730270385742
+"I had no major feelings today, and strangely, I don’t feel guilty about that.",neutral,neutral,0.5050159096717834
+"Met people, talked, laughed a little. Nothing memorable. Still glad I went out.",neutral,joy,0.786970853805542
+"Even breathing felt balanced today—not deep, not shallow. Just regular.",neutral,neutral,0.9619163274765015
+I don’t know if I’m improving or declining. Everything feels level. Maybe that’s a type of progress.,neutral,neutral,0.9378480315208435
+Neutral days make me realize how exhausting intense emotions can be. This quiet isn’t bad.,neutral,neutral,0.5992626547813416
+There’s something comforting about having no expectations from the day.,neutral,neutral,0.5866744518280029
+I didn’t search for meaning today. Sometimes life doesn’t have to teach you anything.,neutral,neutral,0.9317975640296936
+"I didn’t feel lonely today, but I didn’t feel connected either. Just somewhere in-between.",neutral,sadness,0.5837168097496033
+I think I’m starting to accept that not feeling strongly is still feeling something.,neutral,neutral,0.570202112197876
+"I don’t feel like celebrating, but I don’t feel like hiding. I guess I’m just living.",neutral,neutral,0.7244763970375061
+Today felt like a long exhale. Not relief—just release.,neutral,neutral,0.8499108552932739
+Some parts of life don’t need emotional narration. They just need to be done.,neutral,neutral,0.9827681183815002
+"If I had to describe today, I’d call it beige. Not colorful, not dark. Just neutral.",neutral,neutral,0.962857186794281
+"I answered all my emails. Not proudly, not reluctantly. Just checked them off the list.",neutral,neutral,0.9777961373329163
+I don’t crave excitement right now. I just want steady ground.,neutral,neutral,0.9299557209014893
+I think I’m okay with existing quietly for a while.,neutral,neutral,0.9622942805290222
+"I don’t know if neutrality is healing or numbness—but right now, it’s comfortable.",neutral,neutral,0.9432712197303772
+"Maybe neutrality is not absence, but balance. A place to rest before the next wave.",neutral,neutral,0.9815404415130615

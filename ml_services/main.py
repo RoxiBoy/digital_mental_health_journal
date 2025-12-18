@@ -17,83 +17,78 @@ class JournalInput(BaseModel):
 
 # Initialize NLP models
 sentiment_model = pipeline(
-    "sentiment-analysis",
+    "text-classification",
     model="michellejieli/emotion_text_classifier",
     device=-1
 )
-#
-# # Initialize the larger, more capable generative model (GPT-Neo 1.3B)
-# gpt_tokenizer = AutoTokenizer.from_pretrained(GENERATION_MODEL_NAME)
-# # Set the padding token to the end-of-sequence token as is common for GPT-style models
-# if gpt_tokenizer.pad_token is None:
-#     gpt_tokenizer.pad_token = gpt_tokenizer.eos_token
-# gpt_model = AutoModelForCausalLM.from_pretrained(GENERATION_MODEL_NAME)
-# gpt_model.eval()  # set to evaluation mode
-#
-#
-# def generate_feedback_journal(journal_text: str, sentiment_data: dict):
-#     """
-#     Use GPT-Neo (1.3B) to generate better quality, persona-adherent feedback.
-#     
-#     The Few-Shot prompting technique is retained as it is still useful for guiding
-#     the model's response structure.
-#     """
-#     
-#     # We provide examples (few-shot) so the model sees the pattern it needs to complete.
-#     prompt = (
-#         "Imagine you are a compassionate therapist helping people with their mental health. From the journal text provide a therapeutic response to the user to help them navigate or deal with what they are dealing. Maintain 100-150 word count.\n\n"
-#         f"Journal Entry: {journal_text}\n"
-#         "Therapist Response:"
-#     )
-#
-#     # *** FIX: Use the tokenizer's call method and ensure `return_attention_mask=True` ***
-#     # This returns a dictionary of tensors, including `input_ids` and `attention_mask`.
-#     inputs = gpt_tokenizer(
-#         prompt, 
-#         return_tensors="pt", 
-#         padding=True, 
-#         truncation=True,
-#         return_attention_mask=True # Explicitly request the attention mask
-#     )
-#     
-#     # Calculate dynamic length: Input length + 60 new tokens for the response
-#     input_length = inputs['input_ids'].shape[1]
-#     
-#     with torch.no_grad():
-#         outputs = gpt_model.generate(
-#             inputs['input_ids'],           # Pass input_ids
-#             attention_mask=inputs['attention_mask'], # *** FIX: Pass attention_mask to generate ***
-#             max_length=input_length + 60,  # Generate about 60 words of feedback
-#             do_sample=True,
-#             temperature=0.7,
-#             top_k=50,
-#             top_p=0.9,
-#             repetition_penalty=1.2,        # Penalizes loops
-#             pad_token_id=gpt_tokenizer.eos_token_id,
-#             num_return_sequences=1
-#         )
-#
-#     # Decode the result
-#     full_output = gpt_tokenizer.decode(outputs[0], skip_special_tokens=True)
-#
-#     # Parsing: We only want the text AFTER the last "Therapist Response:"
-#     response_parts = full_output.split("Therapist Response:")
-#     feedbackText = response_parts[-1].strip()
-#
-#     # Clean up: If the model generated a new "Journal Entry:" line after the response, cut it off.
-#     if "Journal Entry:" in feedbackText:
-#         feedbackText = feedbackText.split("Journal Entry:")[0].strip()
-#
-#     # Fallback if empty
-#     if not feedbackText:
-#         feedbackText = "Thank you for sharing your thoughts. I am here to listen."
-#
-#     return {
-#         "feedbackText": feedbackText,
-#         "feedbackType": "general",
-#         "ruleTriggered": "DEFAULT"
-#     }
-#
+
+# Load once (do this at startup)
+print("Loading GPT-Neo 1.3B for feedback generation...")
+gpt_tokenizer = AutoTokenizer.from_pretrained(GENERATION_MODEL_NAME)
+if gpt_tokenizer.pad_token is None:
+    gpt_tokenizer.pad_token = gpt_tokenizer.eos_token
+
+gpt_model = AutoModelForCausalLM.from_pretrained(
+    GENERATION_MODEL_NAME,
+    torch_dtype=torch.float16,   # saves VRAM
+    low_cpu_mem_usage=True
+)
+gpt_model.eval()
+if torch.cuda.is_available():
+    gpt_model = gpt_model.cuda()
+
+def generate_feedback_journal(journal_text: str, detected_emotion: str = "unknown"):
+    """
+    Generate high-quality, compassionate feedback using GPT-Neo 1.3B
+    """
+    prompt = (
+        "You are a warm, empathetic, non-clinical companion who helps people reflect on their feelings. "
+        "Respond in 2–4 gentle sentences. Acknowledge what they shared, validate their emotions, "
+        "and offer a small spark of kindness or hope. Never give advice or use clinical language.\n\n"
+        f"Journal entry:\n\"{journal_text.strip()}\"\n\n"
+        f"Detected emotion: {detected_emotion}\n\n"
+        "Your supportive response:"
+    )
+
+    inputs = gpt_tokenizer(
+        prompt,
+        return_tensors="pt",
+        truncation=True,
+        max_length=1024,
+        padding=False
+    )
+    if torch.cuda.is_available():
+        inputs = {k: v.cuda() for k, v in inputs.items()}
+
+    input_len = inputs["input_ids"].shape[1]
+
+    with torch.no_grad():
+        output = gpt_model.generate(
+            inputs["input_ids"],
+            attention_mask=inputs["attention_mask"],
+            max_new_tokens=120,
+            do_sample=True,
+            temperature=0.8,
+            top_p=0.92,
+            top_k=50,
+            repetition_penalty=1.15,
+            pad_token_id=gpt_tokenizer.eos_token_id,
+            eos_token_id=gpt_tokenizer.eos_token_id,
+        )
+
+    full_text = gpt_tokenizer.decode(output[0], skip_special_tokens=True)
+    response = full_text[len(prompt):].strip()
+
+    # Clean up any accidental repetition
+    if "Journal entry:" in response:
+        response = response.split("Journal entry:")[0].strip()
+    if "Your supportive response:" in response:
+        response = response.split("Your supportive response:")[1].strip()
+
+    if not response or len(response) < 10:
+        response = "Thank you for sharing this with me. Your feelings make complete sense, and I'm here with you."
+
+    return response
 
 @app.post("/analyze_and_feedback")
 async def analyze_and_feedback(journal: JournalInput):
@@ -107,36 +102,35 @@ async def analyze_and_feedback(journal: JournalInput):
     
     sentiment_score = sentiment_result["score"]  
     
-    negative_emotions = ["sadness", "depression", "anxiety", "fear", "anger", "emptiness", "hopelessness"]
+    negative_emotions = ["sadness", "fear", "anger"]
     
     sentiment = "negative" if sentiment_result["label"] in negative_emotions else "positive"  
 
     sentiment_data = {
-        "emotion": sentiment_result["label"],
+        "emotion": sentiment_result["label"].lower(),
         "sentiment_score": sentiment_score,
         "sentiment": sentiment
     }
 
     print("Sentiment Analysed")
     # print("Generating Feedback")
-
     # Step 2: Generate feedback using GPT-Neo 1.3B
-    # feedback_data = generate_feedback_journal(content, sentiment_data)
+    feedback_data = generate_feedback_journal(content, sentiment_data["emotion"])
 
-    # print("Feedback generated")
-
-    # Step 3: Explicitly set the type and rule based on reliable analysis data
-    # feedback_data["feedbackType"] = f"Emotion: {sentiment_data['emotion']}"
-    # feedback_data["ruleTriggered"] = f"Sentiment: {sentiment_data['sentiment']}"
+    feedback_data = {
+        "feedbackText": feedback_data,
+        "feedbackType": f"Emotion: {sentiment_data['emotion']}",
+        "ruleTriggered": f"Sentiment: {sentiment_data['sentiment']}"
+    }
 
     # Step 4: Return combined result
     response = {
         "emotion": sentiment_data["emotion"],
         "sentiment": sentiment_data["sentiment"],
         "sentimentScore": sentiment_data["sentiment_score"],
-        # "feedbackText": feedback_data["feedbackText"],
-        # "feedbackType": feedback_data["feedbackType"],
-        # "ruleTriggered": feedback_data["ruleTriggered"]
+        "feedbackText": feedback_data["feedbackText"],
+        "feedbackType": feedback_data["feedbackType"],
+        "ruleTriggered": feedback_data["ruleTriggered"]
     }
 
     return response
