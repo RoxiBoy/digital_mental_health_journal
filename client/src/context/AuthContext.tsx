@@ -19,7 +19,7 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   const [user, setUser] = useState<User | null>(null)
   const [loading, setLoading] = useState(true)
 
-  const API_BASE_URL = "http://localhost:5000/api"
+  const API_BASE_URL = "http://localhost:5001/api"
 
   useEffect(() => {
     const storedUser = localStorage.getItem("user")
@@ -35,6 +35,7 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
       const response = await fetch(`${API_BASE_URL}/users/signup`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
+        credentials: "include",
         body: JSON.stringify({ email, password, displayName, group }),
       })
 

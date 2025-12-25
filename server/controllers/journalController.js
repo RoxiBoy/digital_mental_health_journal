@@ -1,8 +1,9 @@
 const JournalEntry = require('../models/JournalEntry')
 const mongoose = require('mongoose')
 const axios = require('axios')
+const Feedback = require('../models/Feedback')
 
-const ANALYSIS_URL = 'http://127.0.0.1:8001/analyze_and_feedback'; // Adjust port if needed
+const ML_SERVICE_URL = 'http://localhost:8000/analyze_and_feedback';
 
 const createJournalEntry = async (req, res) => {
   try {
@@ -12,46 +13,59 @@ const createJournalEntry = async (req, res) => {
       return res.status(400).json({ message: 'User ID and content are required' });
     }
 
-    const analysisResponse = await axios.post(ANALYSIS_URL, {
-      content: content,
-    });
+    const mlResponse = await axios.post(ML_SERVICE_URL, { content });
 
     const { 
-      sentiment, 
       emotion, 
-      sentimentScore 
-    } = analysisResponse.data;
+      sentiment, 
+      sentimentScore, 
+      feedbackText, 
+      feedbackType, 
+      ruleTriggered 
+    } = mlResponse.data;
 
+    // 3. Create the Journal Entry document
     const newEntry = await JournalEntry.create({
       userId,
       content,
-      sentiment,
-      emotion,
-      sentimentScore,
+      sentiment,      // from ML service
+      emotion,        // from ML service
+      sentimentScore, // from ML service
       moodRating,
       typingSpeed,
       wordCount,
     });
 
-    res.status(201).json({
-      message: 'Journal entry created successfully with analysis',
-      entry: newEntry,
+    const newFeedback = await Feedback.create({
+      userId,
+      journalEntryId: newEntry._id, // Link to the entry we just made
+      feedbackText,
+      feedbackType,
+      ruleTriggered
     });
+
+    // 5. Success Response
+    // We return both so the React app can display the entry and the AI feedback immediately
+    res.status(201).json({
+      message: 'Journal entry created and analyzed successfully',
+      entry: newEntry,
+      feedback: newFeedback
+    });
+
   } catch (err) {
-    if (axios.isAxiosError(err) && err.response) {
-      console.error('Microservice Error:', err.response.data);
+    // Handle specific Microservice/Ollama failures
+    if (axios.isAxiosError(err)) {
+      console.error('ML Microservice Error:', err.message);
       return res.status(503).json({ 
-        message: 'Analysis service failed to process the request.',
-        details: err.response.data 
+        message: 'Analysis service is unavailable. Make sure your Python server and Ollama are running.' 
       });
     }
 
-    console.error('Server Error:', err);
-    res.status(500).json({ message: 'Server error' });
+    console.error('Database/Server Error:', err);
+    res.status(500).json({ message: 'Internal server error' });
   }
-};
+};const getUserJournals = async (req, res) => {
 
-const getUserJournals = async (req, res) => {
   try {
     const { userId } = req.params
 

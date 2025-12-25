@@ -9,6 +9,7 @@ const assignGroup = () => {
 }
 
 const registerUser = async (req, res) => {
+  console.log('REGISTER USER HIT')
   try {
     const { email, password, displayName, consentGiven } = req.body
 
